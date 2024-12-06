@@ -49,9 +49,10 @@ Again, cmd_interface and traj_sel have been set by default in order to have velo
 Finally launch the node designated to recognize ArUco Marker from camera's point of view:
 ```
 ros2 launch aruco_ros single.launch.py marker_size:=0.1 marker_id:=201 reference_frame:=world
+```
 where:
 - 'reference_frame' selects the reference compared to which the position of the aruco will be evaluated.
-```
+
 In this run, the terminal where you run the controller will require some offsets: these are supposed to be expressed in the ArUco frame. You can learn more about that 
 in the documentation. By the way,  to test some valid trajectory insert [0, 0, 0.4] for position offset, while [3.14, 0, 1.57] for orientation ones.
 

@@ -1,7 +1,12 @@
-# Homework3
+# Vision-based control of a Robotic Manipulator (Homework3)
 
 ## :package: About
+Goals:
+- Set up a camera on the robot's end-effector, and detecting objects using OpenCV.
+- Using vision-based controller, perform positioning and look-at-point tasks using Aruco marker identification.
+- Merge joint-space and operational-space control for improved tracking and trajectory execution.
 
+Tests and results are included in the report file, evaluating effort commands and Cartesian error plots. Code and simulation videos are available on GitHub and YouTube.
 This package contains the developed code for the third homework of the Robotics Lab 2024/25 Course. The authors of the package are:
 William Notaro, Chiara Panagrosso, Salvatore Piccolo, Roberto Rocco
 
